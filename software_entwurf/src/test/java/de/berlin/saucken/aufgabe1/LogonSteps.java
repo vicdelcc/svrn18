@@ -1,4 +1,4 @@
-package de.berlin.saucken;
+package de.berlin.saucken.aufgabe1;
 
 import cucumber.api.PendingException;
 import cucumber.api.java.en.Given;
