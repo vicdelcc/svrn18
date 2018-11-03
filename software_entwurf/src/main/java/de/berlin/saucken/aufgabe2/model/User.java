@@ -1,10 +1,8 @@
-package de.berlin.saucken.aufgabe1.model;
+package de.berlin.saucken.aufgabe2.model;
 
-import de.berlin.saucken.aufgabe1.model.Utils.EmailValidator;
-import de.berlin.saucken.aufgabe1.model.Utils.PasswordValidator;
-import lombok.AllArgsConstructor;
+import de.berlin.saucken.aufgabe2.Utils.EmailValidator;
+import de.berlin.saucken.aufgabe2.Utils.PasswordValidator;
 import lombok.Data;
-import lombok.RequiredArgsConstructor;
 
 import java.util.ArrayList;
 import java.util.List;

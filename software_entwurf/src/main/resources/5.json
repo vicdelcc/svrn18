@@ -1,0 +1,86 @@
+{
+  "flightbooking": {
+    "booking": [
+      {
+        "usrname": {
+          "firstname": "Friedrich",
+          "lastname": "Heinz"
+        },
+        "adress": {
+          "street": "Mangelnauerstraße",
+          "hsNr": "15",
+          "zip": "45788",
+          "city": "Oldenburg"
+        },
+        "price": "12.65",
+        "window": "true",
+        "flydate": "2016-03-12",
+        "flytime": "12:15:00"
+      },
+      {
+        "usrname": {
+          "firstname": "Justus",
+          "lastname": "Jonas"
+        },
+        "adress": {
+          "street": "Fragendestraße",
+          "hsNr": "3",
+          "zip": "47785",
+          "city": "Lampertheim"
+        },
+        "price": "120.45",
+        "window": "false",
+        "flydate": "2016-06-25",
+        "flytime": "18:23:00"
+      },
+      {
+        "usrname": {
+          "firstname": "Ferdinand",
+          "lastname": "Halstroem"
+        },
+        "adress": {
+          "street": "Mechtersstraße",
+          "hsNr": "84",
+          "zip": "63553",
+          "city": "Groß-Auenbach"
+        },
+        "price": "89.88",
+        "window": "true",
+        "flydate": "2016-08-17",
+        "flytime": "09:55:00"
+      },
+      {
+        "usrname": {
+          "firstname": "James",
+          "lastname": "Miltras"
+        },
+        "adress": {
+          "street": "Hauptstraße",
+          "hsNr": "198",
+          "zip": "76622",
+          "city": "Gernach"
+        },
+        "price": "66.35",
+        "window": "false",
+        "flydate": "2016-03-19",
+        "flytime": "14:30:00"
+      },
+      {
+        "usrname": {
+          "firstname": "Heike",
+          "lastname": "Stefan"
+        },
+        "adress": {
+          "street": "Althausstraße",
+          "hsNr": "27",
+          "zip": "75543",
+          "city": "Dresden"
+        },
+        "price": "101.43",
+        "window": "true",
+        "flydate": "2016-11-12",
+        "flytime": "08:20:00"
+      }
+    ]
+  }
+}

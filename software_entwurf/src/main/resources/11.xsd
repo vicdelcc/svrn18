@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<!-- definition of simple elements -->
+<xs:element name="firstname" type="xs:string"/>
+<xs:element name="lastname" type="xs:string"/>
+<xs:element name="title" type="xs:string"/>
+<xs:element name="address" type="xs:string"/>
+<xs:element name="city" type="xs:string"/>
+<xs:element name="country" type="xs:string"/>
+<xs:element name="customervalid" type="xs:boolean"/>
+
+<xs:element name="departureiata" type="xs:string"/>
+<xs:element name="arrivaliata" type="xs:string"/>
+<xs:element name="departuretime" type="xs:time"/>
+<xs:element name="arrivaltime" type="xs:time"/>
+<xs:element name="departuredate" type="xs:date"/>
+<xs:element name="arrivaldate" type="xs:date"/>
+<xs:element name="flightavailable" type="xs:boolean"/>
+
+<!-- definition of attributes -->
+<xs:attribute name="orderid" type="xs:integer"/>
+<xs:attribute name="note" type="xs:string"/>
+
+<!-- definition of complex elements -->
+<xs:element name="customer">
+    <xs:complexType>
+        <xs:sequence minOccurs="1" maxOccurs="1">
+            <xs:element ref="lastname"/>
+            <xs:element ref="firstname"/>
+            <xs:element ref="title"/>
+            <xs:element ref="address"/>
+            <xs:element ref="city"/>
+            <xs:element ref="country"/>
+            <xs:element ref="customervalid"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:element>
+
+<xs:element name="flightinformation">
+    <xs:complexType>
+        <xs:sequence minOccurs="1" maxOccurs="1">
+            <xs:element ref="departureiata"/>
+            <xs:element ref="departuredate"/>
+            <xs:element ref="departuretime"/>
+            <xs:element ref="arrivaliata"/>
+            <xs:element ref="arrivaldate"/>
+            <xs:element ref="arrivaltime"/>
+            <xs:element ref="flightavailable"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:element>
+
+<xs:element name="flight">
+    <xs:complexType>
+        <xs:sequence minOccurs="1" maxOccurs="1">
+            <xs:element ref="customer"/>
+            <xs:element ref="flightinformation"/>
+        </xs:sequence>
+        <xs:attribute ref="orderid" use="required"/>
+        <xs:attribute ref="note" use="required"/>
+    </xs:complexType>
+</xs:element>
+
+</xs:schema>

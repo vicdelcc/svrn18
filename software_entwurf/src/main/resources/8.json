@@ -1,0 +1,88 @@
+{
+
+	"FlugBuchung": {
+		"Flug": [{
+				"Start": "Hamburg",
+				"Ziel": "Paris",
+				"Datum": "2017-02-26",
+				"Zeit": "15:30:00",
+				"Reisende": "3",
+				"Preis": "167.00",
+				"Bezahlt": "true",
+				"Klasse": {
+					"EconomyKlasse": "EconomyKlasse"
+
+				}
+
+			},
+
+
+
+			{
+				"Start": "Berlin",
+				"Ziel": "Amsterdam",
+				"Datum": "2016-04-12",
+				"Zeit": "10:20:00",
+				"Reisende": "1",
+				"Preis": "120.00",
+				"Bezahlt": "false",
+				"Klasse": {
+					"EconomyKlasse": "EconomyKlasse"
+
+				}
+
+			},
+
+
+
+			{
+				"Start": "Berlin",
+				"Ziel": "Moskau",
+				"Datum": "2016-11-05",
+				"Zeit": "09:45:00",
+				"Reisende": "2",
+				"Preis": "650.00",
+				"Bezahlt": "true",
+				"Klasse": {
+					"BusinessKlasse": "BusinessKlasse"
+
+				}
+
+			},
+
+
+
+			{
+				"Start": "Moskau",
+				"Ziel": "München",
+				"Datum": "2015-03-06",
+				"Zeit": "16:30:00",
+				"Reisende": "1",
+				"Preis": "300.00",
+				"Bezahlt": "true",
+				"Klasse": {
+					"EconomyKlasse": "EconomyKlasse"
+
+				}
+
+			},
+
+
+
+			{
+				"Start": "Paris",
+				"Ziel": "Barcelona",
+				"Datum": "2017-02-26",
+				"Zeit": "10:30:00",
+				"Reisende": "1",
+				"Preis": "700.00",
+				"Bezahlt": "true",
+				"Klasse": {
+					"ErsteKlasse": "ErsteKlasse"
+
+				}
+
+			}
+		]
+	}
+}

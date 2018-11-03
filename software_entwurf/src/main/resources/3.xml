@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<flights>
+<flight>
+    <number>123456</number>
+    <flightdate>2010-01-01</flightdate>
+    <flighttime>10:50:00</flighttime>
+    <bookingdate>2010-01-01</bookingdate>
+    <price>123.45</price>
+    <destination ICAO-Code="TXL">Berlin Tegel</destination>
+    <departure ICAO-Code="BER">Berlin Berlin Brandenburg</departure>
+    <passengers>
+        <passenger number="1">
+            <lastname>Boolean</lastname>
+            <firtnanme>True</firtnanme>
+            <sex>female</sex>
+            <vegetarian>true</vegetarian>
+            <birthdate>2010-01-01</birthdate>
+            <passportnumber>A1324456789</passportnumber>
+            <seat>7a</seat>
+        </passenger>
+        <passenger number="2">
+            <lastname>Boolean</lastname>
+            <firtnanme>False</firtnanme>
+            <sex>male</sex>
+            <vegetarian>false</vegetarian>
+            <birthdate>2010-01-01</birthdate>
+            <passportnumber>A132443339</passportnumber>
+            <seat>7b</seat>
+        </passenger>
+    </passengers>
+</flight>
+<flight>
+    <number>1234256</number>
+    <flightdate>2015-01-01</flightdate>
+    <flighttime>10:50:00</flighttime>
+    <bookingdate>2014-01-01</bookingdate>
+    <price>1233.45</price>
+    <destination ICAO-Code="PLM">Palma de Mallorca</destination>
+    <departure ICAO-Code="BER">Berlin Berlin Brandenburg</departure>
+    <passengers>
+        <passenger number="1">
+            <lastname>Booleano</lastname>
+            <firtnanme>Trues</firtnanme>
+            <sex>female</sex>
+            <vegetarian>true</vegetarian>
+            <birthdate>2000-01-01</birthdate>
+            <passportnumber>I2433456789</passportnumber>
+            <seat>1a</seat>
+        </passenger>
+    </passengers>
+</flight>
+<flight>
+    <number>12346</number>
+    <flightdate>2025-01-01</flightdate>
+    <flighttime>10:30:00</flighttime>
+    <bookingdate>2015-01-01</bookingdate>
+    <price>50000.45</price>
+    <destination ICAO-Code="JFK">New York City, JFK Airport</destination>
+    <departure ICAO-Code="BTN">Boston International Airport</departure>
+    <passengers>
+        <passenger number="1">
+            <lastname>Integer</lastname>
+            <firtnanme>Nul</firtnanme>
+            <sex>male</sex>
+            <vegetarian>false</vegetarian>
+            <birthdate>1980-10-01</birthdate>
+            <passportnumber>A5455666</passportnumber>
+            <seat>1a</seat>
+        </passenger>
+    </passengers>
+</flight>
+<flight>
+    <number>1000</number>
+    <flightdate>2015-11-21</flightdate>
+    <flighttime>08:30:00</flighttime>
+    <bookingdate>2015-01-01</bookingdate>
+    <price>500.45</price>
+    <destination ICAO-Code="JFK">New York City, JFK Airport</destination>
+    <departure ICAO-Code="BTN">Boston International Airport</departure>
+    <passengers>
+        <passenger number="1">
+            <lastname>Real</lastname>
+            <firtnanme>John</firtnanme>
+            <sex>male</sex>
+            <vegetarian>false</vegetarian>
+            <birthdate>1985-09-09</birthdate>
+            <passportnumber>K12335</passportnumber>
+            <seat>10c</seat>
+        </passenger>
+    </passengers>
+</flight>
+<flight>
+    <number>2000</number>
+    <flightdate>2015-12-31</flightdate>
+    <flighttime>00:30:00</flighttime>
+    <bookingdate>2015-10-01</bookingdate>
+    <price>500.45</price>
+    <destination ICAO-Code="JFK">New York City, JFK Airport</destination>
+    <departure ICAO-Code="BTN">Boston International Airport</departure>
+    <passengers>
+        <passenger number="1">
+            <lastname>Complex</lastname>
+            <firtnanme>Maria</firtnanme>
+            <sex>female</sex>
+            <vegetarian>false</vegetarian>
+            <birthdate>1983-03-02</birthdate>
+            <passportnumber>G999538</passportnumber>
+            <seat>7b</seat>
+        </passenger>
+    </passengers>
+</flight>
+
+</flights>

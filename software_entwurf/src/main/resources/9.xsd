@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="flugbuchung">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Customer">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="price" type="xs:double" />
+                            <xs:element name="lastname" type="xs:string" />
+                            <xs:element name="instantbanking" type="xs:boolean" />
+                            <xs:element name="date" type="xs:date" />
+                            <xs:element name="time" type="xs:time" />
+                            <xs:element name="Addresse">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="street" type="xs:string" />
+                                        <xs:element name="housenumber" type="xs:integer" />
+                                        <xs:element name="zipcode" type="xs:integer" />
+                                        <xs:element name="city" type="xs:string" />
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="customer_id" type="xs:integer" use="required" />
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="flight_Data">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="from" type="xs:string" minOccurs="1" maxOccurs="1" />
+                            <xs:element name="to" type="xs:string" minOccurs="1" maxOccurs="1" />
+                            <xs:element name="price" type="xs:double" minOccurs="1" maxOccurs="1" />
+                            <xs:element name="date" type="xs:date" minOccurs="1" maxOccurs="1" />
+                        </xs:sequence>
+                        <xs:attribute name="flight_ID" type="xs:string" use="required" />
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="order_Id" type="xs:string" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

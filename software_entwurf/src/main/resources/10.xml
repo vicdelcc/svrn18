@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<Booking xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="s0548562.xsd">
+
+	<Flight Fid="1">
+		<From>Frankfurt</From>
+		<To>London</To>
+		<Date>2016-08-26</Date>
+		<Time>12:00:00</Time>
+		<Passengers>2</Passengers>
+		<Price>120.00</Price>
+		<available>true</available>	
+		<Class>
+			<EconomyClass></EconomyClass>
+		</Class>
+	</Flight>
+	
+	<Flight Fid="2">
+		<From>Frankfurt</From>
+		<To>New York</To>
+		<Date>2016-05-13</Date>
+		<Time>11:39:00</Time>
+		<Passengers>2</Passengers>
+		<Price>1120.00</Price>
+		<available>true</available>	
+		<Class>
+			<BusinessClass></BusinessClass>
+		</Class>
+	</Flight>
+	
+	<Flight Fid="3">
+		<From>Frankfurt</From>
+		<To>Wien</To>
+		<Date>2015-07-05</Date>
+		<Time>16:00:00</Time>
+		<Passengers>4</Passengers>
+		<Price>180.00</Price>
+		<available>false</available>	
+		<Class>
+			<EconomyClass></EconomyClass>
+		</Class>
+	</Flight>
+	
+	<Flight Fid="4">
+		<From>Hamburg</From>
+		<To>Rom</To>
+		<Date>2017-01-16</Date>
+		<Time>20:00:00</Time>
+		<Passengers>1</Passengers>
+		<Price>201.00</Price>
+		<available>true</available>	
+		<Class>
+			<EconomyClass></EconomyClass>
+		</Class>
+	</Flight>
+	
+	<Flight Fid="5">
+		<From>Berlin</From>
+		<To>Hamburg</To>
+		<Date>2016-09-25</Date>
+		<Time>07:00:00</Time>
+		<Passengers>1</Passengers>
+		<Price>450.00</Price>
+		<available>true</available>	
+		<Class>
+			<FirstClass></FirstClass>
+		</Class>
+	</Flight>
+	
+</Booking>

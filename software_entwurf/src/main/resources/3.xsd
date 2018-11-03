@@ -1,0 +1,58 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" attributeFormDefault="unqualified"
+           elementFormDefault="qualified">
+    <xs:element name="flights">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="flight" maxOccurs="unbounded" minOccurs="0">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element type="xs:int" name="number"/>
+                            <xs:element type="xs:date" name="flightdate"/>
+                            <xs:element type="xs:time" name="flighttime"/>
+                            <xs:element type="xs:date" name="bookingdate"/>
+                            <xs:element type="xs:float" name="price"/>
+                            <xs:element name="destination">
+                                <xs:complexType>
+                                    <xs:simpleContent>
+                                        <xs:extension base="xs:string">
+                                            <xs:attribute type="xs:string" name="ICAO-Code" use="required"/>
+                                        </xs:extension>
+                                    </xs:simpleContent>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="departure">
+                                <xs:complexType>
+                                    <xs:simpleContent>
+                                        <xs:extension base="xs:string">
+                                            <xs:attribute type="xs:string" name="ICAO-Code" use="required"/>
+                                        </xs:extension>
+                                    </xs:simpleContent>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="passengers">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="passenger" maxOccurs="unbounded" minOccurs="0">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element type="xs:string" name="lastname"/>
+                                                    <xs:element type="xs:string" name="firtnanme"/>
+                                                    <xs:element type="xs:string" name="sex"/>
+                                                    <xs:element type="xs:string" name="vegetarian"/>
+                                                    <xs:element type="xs:date" name="birthdate"/>
+                                                    <xs:element type="xs:string" name="passportnumber"/>
+                                                    <xs:element type="xs:string" name="seat"/>
+                                                </xs:sequence>
+                                                <xs:attribute type="xs:byte" name="number" use="optional"/>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

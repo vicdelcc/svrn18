@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flight xmlns:xsl="https://webdrive.htw-berlin.de/public/file/xMJ3adOl70S9OwJuIdgl2A/s0550278.xsd" orderid="100" note="string">
+  <customer>
+    <lastname>Mustermann</lastname>
+    <firstname>Max</firstname>
+    <title>Lord</title>
+    <address>Freiheit 13</address>
+    <city>Darmstadt-Wixhausen</city>
+    <country>Germany</country>
+    <customervalid>false</customervalid>
+  </customer>
+  <flightinformation>
+    <departureiata>SXF</departureiata>
+    <departuredate>2017-10-26</departuredate>
+    <departuretime>19:00:00</departuretime>
+    <arrivaliata>TXL</arrivaliata>
+    <arrivaldate>2018-11-01+01:00</arrivaldate>
+    <arrivaltime>03:02:49+02:00</arrivaltime>
+    <flightavailable>false</flightavailable>
+  </flightinformation>
+</flight>

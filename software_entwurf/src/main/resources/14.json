@@ -1,0 +1,99 @@
+{
+    "Buchungen":[
+        {
+            "Person": {
+                "Vorname": "Tina",
+                "Name": "Shelby",
+                "Geburtsdatum": "1937-02-10"
+            },
+            "Flug": {
+                "Platzierung": {
+                    "Reihe": 3,
+                    "Sitznummer": 2
+                },
+                "Flugnummer": "F010841E",
+                "Abflug": {
+                    "Datum": "2010-05-30",
+                    "Uhrzeit": "09:00:00"
+                },
+                "Preis": 1.99
+            }
+        },
+        {
+            "Person": {
+                "Vorname": "Diana",
+                "Name": "Schmidt",
+                "Geburtsdatum": "1947-12-12"
+            },
+            "Flug": {
+                "Platzierung": {
+                    "Reihe": 10,
+                    "Sitznummer": 4
+                },
+                "Flugnummer": "E05837QFF",
+                "Abflug": {
+                    "Datum": "2011-06-01",
+                    "Uhrzeit": "12:15:00"
+                },
+                "Preis": 14.99
+            }
+        },
+        {
+            "Person": {
+                "Vorname": "Janina",
+                "Name": "Abt",
+                "Geburtsdatum": "1949-02-06"
+            },
+            "Flug": {
+                "Platzierung": {
+                    "Reihe": 19,
+                    "Sitznummer": 1
+                },
+                "Flugnummer": "QQ599373S",
+                "Abflug": {
+                    "Datum": "2010-10-18",
+                    "Uhrzeit": "23:35:00"
+                },
+                "Preis": 20.45
+            }
+        },
+        {
+            "Person": {
+                "Vorname": "Mike",
+                "Name": "Papst",
+                "Geburtsdatum": "1933-09-14"
+            },
+            "Flug": {
+                "Platzierung": {
+                    "Reihe": 1,
+                    "Sitznummer": 3
+                },
+                "Flugnummer": "SE938765D",
+                "Abflug": {
+                    "Datum": "2014-01-10",
+                    "Uhrzeit": "04:25:00"
+                },
+                "Preis": 30.30
+            }
+        },
+        {
+            "Person": {
+                "Vorname": "Ralph",
+                "Name": "Neustadt",
+                "Geburtsdatum": "1976-01-01"
+            },
+            "Flug": {
+                "Platzierung": {
+                    "Reihe": 6,
+                    "Sitznummer": 9
+                },
+                "Flugnummer": "OP399573E",
+                "Abflug": {
+                    "Datum": "2010-05-30",
+                    "Uhrzeit": "15:09:00"
+                },
+                "Preis": 17.38
+            }
+        }
+    ]
+}

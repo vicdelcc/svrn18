@@ -1,6 +1,6 @@
 package de.berlin.saucken.aufgabe2;
 
-import de.berlin.saucken.aufgabe1.model.*;
+import de.berlin.saucken.aufgabe2.model.*;
 import org.junit.Test;
 
 import java.time.LocalDateTime;

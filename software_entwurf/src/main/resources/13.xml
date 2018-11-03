@@ -1,0 +1,98 @@
+<?xml version="1.0"?>
+<Fluganfragen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="s0550794.xsd">
+
+	<Fluganfrage FlugNr="1234" KundenNr="6789">
+		<Startflughafen>Berlin</Startflughafen>
+		<Zielflughafen>Paris</Zielflughafen>
+		<Datum>2016-08-26</Datum>
+		<Zeit>06:00:00</Zeit>
+		<Passagieranzahl>2</Passagieranzahl>
+		<Preis>155.55</Preis>
+		<stornierbar>true</stornierbar>	
+		<Befoerderungsklasse>
+			<EconomyClass></EconomyClass>
+		</Befoerderungsklasse>
+		<Zusatzangebote>
+			<Bordverpflegung>false</Bordverpflegung>
+			<Sitzplatzreservierung>false</Sitzplatzreservierung>
+			<ZugZumFlug>false</ZugZumFlug>
+			<Mietwagen>false</Mietwagen>
+		</Zusatzangebote>
+	</Fluganfrage>
+
+	<Fluganfrage FlugNr="1110" KundenNr="5789">
+		<Startflughafen>Berlin</Startflughafen>
+		<Zielflughafen>Rom</Zielflughafen>
+		<Datum>2016-11-06</Datum>
+		<Zeit>11:00:00</Zeit>
+		<Passagieranzahl>1</Passagieranzahl>
+		<Preis>178.50</Preis>
+		<stornierbar>true</stornierbar>	
+		<Befoerderungsklasse>
+			<BusinessClass></BusinessClass>
+		</Befoerderungsklasse>
+		<Zusatzangebote>
+			<Bordverpflegung>true</Bordverpflegung>
+			<Sitzplatzreservierung>false</Sitzplatzreservierung>
+			<ZugZumFlug>false</ZugZumFlug>
+			<Mietwagen>false</Mietwagen>
+		</Zusatzangebote>
+	</Fluganfrage>
+
+	<Fluganfrage FlugNr="54368" KundenNr="1411">
+		<Startflughafen>Rom</Startflughafen>
+		<Zielflughafen>Paris</Zielflughafen>
+		<Datum>2016-05-26</Datum>
+		<Zeit>21:30:00</Zeit>
+		<Passagieranzahl>1</Passagieranzahl>
+		<Preis>314.00</Preis>
+		<stornierbar>true</stornierbar>	
+		<Befoerderungsklasse>
+			<FirstClass></FirstClass>
+		</Befoerderungsklasse>
+		<Zusatzangebote>
+			<Bordverpflegung>true</Bordverpflegung>
+			<Sitzplatzreservierung>true</Sitzplatzreservierung>
+			<ZugZumFlug>false</ZugZumFlug>
+			<Mietwagen>false</Mietwagen>
+		</Zusatzangebote>
+	</Fluganfrage>
+
+	<Fluganfrage FlugNr="1587" KundenNr="3698">
+		<Startflughafen>Berlin</Startflughafen>
+		<Zielflughafen>New York</Zielflughafen>
+		<Datum>2016-10-28</Datum>
+		<Zeit>06:00:00</Zeit>
+		<Passagieranzahl>1</Passagieranzahl>
+		<Preis>348.36</Preis>
+		<stornierbar>false</stornierbar>	
+		<Befoerderungsklasse>
+			<EconomyClass></EconomyClass>
+		</Befoerderungsklasse>
+		<Zusatzangebote>
+			<Bordverpflegung>true</Bordverpflegung>
+			<Sitzplatzreservierung>false</Sitzplatzreservierung>
+			<ZugZumFlug>true</ZugZumFlug>
+			<Mietwagen>false</Mietwagen>
+		</Zusatzangebote>
+	</Fluganfrage>
+
+		<Fluganfrage FlugNr="7895" KundenNr="8879">
+		<Startflughafen>Helsinki</Startflughafen>
+		<Zielflughafen>Frankfurt am Main</Zielflughafen>
+		<Datum>2016-06-16</Datum>
+		<Zeit>17:28:00</Zeit>
+		<Passagieranzahl>2</Passagieranzahl>
+		<Preis>178.00</Preis>
+		<stornierbar>false</stornierbar>	
+		<Befoerderungsklasse>
+			<EconomyClass></EconomyClass>
+		</Befoerderungsklasse>
+		<Zusatzangebote>
+			<Bordverpflegung>false</Bordverpflegung>
+			<Sitzplatzreservierung>false</Sitzplatzreservierung>
+			<ZugZumFlug>false</ZugZumFlug>
+			<Mietwagen>false</Mietwagen>
+		</Zusatzangebote>
+	</Fluganfrage>
+</Fluganfragen>

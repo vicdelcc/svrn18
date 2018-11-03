@@ -1,8 +1,8 @@
 package de.berlin.saucken.aufgabe2;
 
-import de.berlin.saucken.aufgabe1.model.User;
-import de.berlin.saucken.aufgabe1.model.UserDB;
-import de.berlin.saucken.aufgabe1.model.UserDBException;
+import de.berlin.saucken.aufgabe2.model.User;
+import de.berlin.saucken.aufgabe2.model.UserDB;
+import de.berlin.saucken.aufgabe2.model.UserDBException;
 import org.junit.Test;
 
 import static org.junit.Assert.*;

@@ -1,0 +1,129 @@
+{
+	"flugbuchung": [
+		{"Customer":
+			{
+				"price": "247.66",
+				"lastname": "Meier",
+				"instantbanking": "true",
+				"date": "2016-09-10",
+				"time": "12:50:09",
+				"Adresse": {
+					"street": "Ahrenshooper Straße",
+					"housenumber": "109",
+					"zipcode": "12343",
+					"city": "Berlin"
+				},
+				"customer_id": "194672538"
+			},
+		
+		"flight_Data":
+			{
+				"from": "TXL",
+				"to": "FRA",
+				"price": "247.66",
+				"date": "2016-09-10",
+				"flight_ID": "txlfra9102016"
+			},
+		"order_Id": "ord2016txlfraopodo"},
+				
+				{"Customer":
+			{
+				"price": "996.03",
+				"lastname": "Richard",
+				"instantbanking": "false",
+				"date": "2016-08-15",
+				"time": "11:11:10",
+				"Adresse": {
+					"street": "Wieker Straße",
+					"housenumber": "12",
+					"zipcode": "13556",
+					"city": "Berlin"
+				},
+				"customer_id": "015438724"
+		},
+		"flight_Data":
+			{
+				"from": "TXL",
+				"to": "JFK",
+				"price": "996.03",
+				"date": "2016:08:15",
+				"flight_ID": "txljfk4562543"
+			},
+		"order_Id": "ord2016txljfkkayak"},
+
+				{"Customer": 
+			{
+				"price": "632.22",
+				"lastname": "Rudolph",
+				"instantbanking": "true",
+				"date": "2017-12-13",
+				"time": "07:11:11",
+				"Adresse": {
+					"street": "Borner Straße",
+					"housenumber": "22",
+					"zipcode": "13203",
+					"city": "Berlin"
+				},
+				"customer_id": "654273655"
+			},
+		"flight_Data":
+			{
+				"from": "TXL",
+				"to": "PMI",
+				"price": "632.22",
+				"date": "2017-12-13",
+				"flight_ID": "txlpmi2349164"
+			},
+		"order_Id": "ord2017txlpmiswoodo"},
+
+				{"Customer": 
+			{
+				"price": "45.65",
+				"lastname": "Walter",
+				"instantbanking": "true",
+				"date": "2016-01-13",
+				"time": "05:04:09",
+				"Adresse": {
+					"street": "Barter Straße",
+					"housenumber": "60",
+					"zipcode": "13432",
+					"city": "Berlin"
+				},
+				"customer_id": "6452976"
+			},
+		"flight_Data": 
+			{
+				"from": "SXF",
+				"to": "DUB",
+				"price": "45.65",
+				"date": "2016-01-13",
+				"flight_ID": "sxfdub2076499"
+			},
+		"order_Id": "ord2016sxfdubkayak"},
+
+				{"Customer": 
+			{
+				"price": "33.54",
+				"lastname": "Heinrich",
+				"instantbanking": "false",
+				"date": "2017-01-01",
+				"time": "08:08:09",
+				"Adresse": {
+					"street": "Darßer Straße",
+					"housenumber": "100",
+					"zipcode": "13051",
+					"city": "Berlin"
+				},
+				"customer_id": "1832554"
+			},
+		"flight_Data": 
+			{
+				"from": "TXL",
+				"to": "FRA",
+				"price": "33.45",
+				"date": "2017-01-01",
+				"flight_ID": "txlfra3876441"
+			},
+		"order_Id": "ord2017txlfraopodo"}
+	]
+}

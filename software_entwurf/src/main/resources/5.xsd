@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:element name="flightbooking">
+	<xs:complexType>
+		<xs:sequence>  
+			<xs:element name="booking" maxOccurs="unbounded">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="usrname">
+							<xs:complexType>
+								<xs:sequence>
+									<xs:element name="firstname" type="xs:string" />
+									<xs:element name="lastname" type="xs:string"/>
+								</xs:sequence>
+							</xs:complexType>
+						</xs:element>
+						<xs:element name="adress">
+							<xs:complexType>
+								<xs:sequence>
+									<xs:element name="street" type="xs:string"/>
+									<xs:element name="hsNr" type="xs:integer"/>
+									<xs:element name="zip" type="xs:integer"/>
+									<xs:element name="city" type="xs:string"/>
+								</xs:sequence>
+							</xs:complexType>
+						</xs:element>
+						<xs:element name="price" type="xs:decimal" />
+						<xs:element name="window" type="xs:boolean" default="false"/>
+						<xs:element name="flydate" type="xs:date" />
+						<xs:element name="flytime" type="xs:time" />
+					</xs:sequence>
+				</xs:complexType>	
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>	
+</xs:element>
+</xs:schema>
+
+			
+			
+			
+			
+		

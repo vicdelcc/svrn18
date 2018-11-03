@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfBooking xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Booking Id="c01" creditnumber="54145146971631">
+    <name>Adam M�ller</name>
+    <bookingdate>26.06.2016</bookingdate>
+    <price unit="USD">100</price>
+    <adress>
+      <street>501 N Western Ave</street>
+      <housenumber>102</housenumber>
+      <zipcode>CA 90004</zipcode>
+      <city>Los Angeles</city>
+      <country>USA</country>
+    </adress>
+    <description>
+      <class>First</class>
+      <size>S015</size>
+      <weight>left</weight>
+      <thistime>2016-05-23T11:09:05.9307591+02:00</thistime>
+    </description>
+  </Booking>
+  <Booking Id="c02" creditnumber="51546978465655">
+    <name>Peter Mayer</name>
+    <bookingdate>15.07.2016</bookingdate>
+    <price unit="Eur">200</price>
+    <adress>
+      <street>Musterstra�e</street>
+      <housenumber>13</housenumber>
+      <zipcode>10707</zipcode>
+      <city>Berlin</city>
+      <country>Germany</country>
+    </adress>
+    <description>
+      <class>Business</class>
+      <size>S022</size>
+      <weight>middle</weight>
+      <thistime>2016-05-23T11:09:05.9432647+02:00</thistime>
+    </description>
+  </Booking>
+  <Booking Id="c03" creditnumber="165464164864">
+    <name>Karl Ott</name>
+    <bookingdate>01.08.2016</bookingdate>
+    <price unit="AUD">300</price>
+    <adress>
+      <street>58 Chief St</street>
+      <housenumber>102</housenumber>
+      <zipcode>SA 5007</zipcode>
+      <city>Brompton</city>
+      <country>Australia</country>
+    </adress>
+    <description>
+      <class>Economy</class>
+      <size>S033</size>
+      <weight>right</weight>
+      <thistime>2016-05-23T11:09:05.9437639+02:00</thistime>
+    </description>
+  </Booking>
+</ArrayOfBooking>

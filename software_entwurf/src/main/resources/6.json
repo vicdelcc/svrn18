@@ -1,0 +1,120 @@
+{
+  "Fluganfragen": {
+    "PurchaseOrder": [
+      {
+        "Start": "Frankfurt",
+        "Ziel": "Muenchen",
+        "OrderDate": "2017-08-08",
+        "OrderTime": "09:00:00",
+        "Price": "140.50",
+        "Benutzer": {
+          "firstname": "Mustermann",
+          "name": "Max",
+          "gender": "true"
+        },
+        "EUAddresse": {
+          "street": "Musterstrasse",
+          "number": "88",
+          "PLZ": "88888",
+          "city": "Muenchen",
+          "state": "Germany"
+        }
+      },
+      {
+        "Start": "Frankfurt",
+        "Ziel": "Muenchen",
+        "OrderDate": "2017-08-08",
+        "OrderTime": "09:00:00",
+        "Price": "140.50",
+        "Benutzer": {
+          "firstname": "Mustermann",
+          "name": "Max",
+          "gender": "true"
+        },
+        "EUAddresse": {
+          "street": "Musterstrasse",
+          "number": "88",
+          "PLZ": "88888",
+          "city": "Muenchen",
+          "state": "Germany"
+        }
+      },
+      {
+        "Start": "Frankfurt",
+        "Ziel": "Muenchen",
+        "OrderDate": "2017-08-08",
+        "OrderTime": "09:00:00",
+        "Price": "140.50",
+        "Benutzer": {
+          "firstname": "Mustermann",
+          "name": "Max",
+          "gender": "true"
+        },
+        "EUAddresse": {
+          "street": "Musterstrasse",
+          "number": "88",
+          "PLZ": "88888",
+          "city": "Muenchen",
+          "state": "Germany"
+        }
+      },
+      {
+        "Start": "Hamburg",
+        "Ziel": "Muenchen",
+        "OrderDate": "2016-05-13",
+        "OrderTime": "11:300:00",
+        "Price": "90.35",
+        "Benutzer": {
+          "firstname": "Schneider",
+          "name": "Lena",
+          "gender": "false"
+        },
+        "EUAddresse": {
+          "street": "Duplostrasse",
+          "number": "6",
+          "PLZ": "12345",
+          "city": "Fantasiestadt",
+          "state": "Germany"
+        }
+      },
+      {
+        "Start": "London",
+        "Ziel": "Berlin",
+        "OrderDate": "2018-11-01",
+        "OrderTime": "09:00:00",
+        "Price": "200.00",
+        "Benutzer": {
+          "firstname": "Schuster",
+          "name": "Hugo",
+          "gender": "true"
+        },
+        "EUAddresse": {
+          "street": "Oberstrasse",
+          "number": "34",
+          "PLZ": "14567",
+          "city": "Berlin",
+          "state": "Germany"
+        }
+      },
+      {
+        "Start": "Frankfurt",
+        "Ziel": "Hannover",
+        "OrderDate": "2017-03-23",
+        "OrderTime": "14:00",
+        "Price": "100.00",
+        "Benutzer": {
+          "firstname": "Musterfrau",
+          "name": "Elke",
+          "gender": "false"
+        },
+        "EUAddresse": {
+          "street": "Unterweg",
+          "number": "7",
+          "PLZ": "33333",
+          "city": "Hannover",
+          "state": "Germany"
+        }
+      }
+    ]
+  }
+}

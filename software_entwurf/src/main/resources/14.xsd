@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:element name="Buchungen">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element name="Buchung" maxOccurs="unbounded" minOccurs="0">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="Person">
+                            <xs:complexType>
+                                <xs:sequence>
+                                    <xs:element name="Vorname" minOccurs="1" maxOccurs="1" type="xs:string"/>
+                                    <xs:element name="Name" minOccurs="1" maxOccurs="1" type="xs:string"/>
+                                    <xs:element name="Geburtsdatum" type="xs:date"/>
+                                </xs:sequence>
+                            </xs:complexType>
+                        </xs:element>
+                        <xs:element name="Flug">
+                            <xs:complexType>
+                                <xs:sequence>
+                                    <xs:element name="Platzierung">
+                                        <xs:complexType>
+                                            <xs:sequence>
+                                                <xs:element name="Reihe" type="xs:integer"/>
+                                                <xs:element name="Sitznummer" type="xs:integer"/>
+                                            </xs:sequence>
+                                        </xs:complexType>
+                                    </xs:element>
+                                    <xs:element name="Flugnummer" type="xs:string"/>
+                                    <xs:element name="Abflug">
+                                        <xs:complexType>
+                                            <xs:sequence>
+                                                <xs:element name="Datum" type="xs:date"/>
+                                                <xs:element name="Uhrzeit" type="xs:time"/>
+                                            </xs:sequence>
+                                        </xs:complexType>
+                                    </xs:element>
+                                    <xs:element name="Preis">
+                                    <xs:complexType>
+                                        <xs:simpleContent>
+                                            <xs:extension base="xs:float">
+                                                <xs:attribute type="xs:string" name="currency" use="required"/>
+                                                <xs:attribute type="xs:string" name="countrycode" use="required"/>
+                                            </xs:extension>
+                                        </xs:simpleContent>
+                                    </xs:complexType>
+                                    </xs:element>
+                                </xs:sequence>
+                            </xs:complexType>
+                        </xs:element>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+</xs:element>
+
+</xs:schema>

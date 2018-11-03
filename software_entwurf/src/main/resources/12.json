@@ -1,0 +1,107 @@
+{
+  "Flugbuchung": {
+    "-xmlns:xsl": "https://webdrive.htw-berlin.de/public/file/xMJ3adOl70S9OwJuIdgl2A/s0550737.xsd",
+    "buchen": [
+      {
+        "Flugnummer": "13",
+        "Preis": "270.50",
+        "Flugziel": "London",
+        "Fenster": "true",
+        "Flugdatum": "2016-06-30",
+        "Flugzeit": "00:00:00",
+        "Adresse": {
+          "Land": "Land1",
+          "PLZ": "12345",
+          "Stadt": "Stadt1",
+          "Straße": "Straße1"
+        },
+        "Name": {
+          "-Geschlecht": "weiblich",
+          "-terrorist": "false",
+          "Nachname": "Nachname1",
+          "Vorname": "Vorname1"
+        }
+      },
+      {
+        "Flugnummer": "15",
+        "Preis": "70.00",
+        "Flugziel": "Moskau",
+        "Fenster": "true",
+        "Flugdatum": "2020-12-24",
+        "Flugzeit": "08:30:00",
+        "Adresse": {
+          "Land": "Land2",
+          "PLZ": "23451",
+          "Stadt": "Stadt2",
+          "Straße": "Straße2"
+        },
+        "Name": {
+          "-Geschlecht": "weiblich",
+          "-terrorist": "false",
+          "Nachname": "Nachname2",
+          "Vorname": "Vorname2"
+        }
+      },
+      {
+        "Flugnummer": "1",
+        "Preis": "135.77",
+        "Flugziel": "Chicago",
+        "Fenster": "false",
+        "Flugdatum": "2019-10-18",
+        "Flugzeit": "04:55:00",
+        "Adresse": {
+          "Land": "Land3",
+          "PLZ": "34512",
+          "Stadt": "Stadt3",
+          "Straße": "Straße3"
+        },
+        "Name": {
+          "-Geschlecht": "männlich",
+          "-terrorist": "true",
+          "Nachname": "Nachname3",
+          "Vorname": "Vorname3"
+        }
+      },
+      {
+        "Flugnummer": "666",
+        "Preis": "600.80",
+        "Flugziel": "Sincity",
+        "Fenster": "true",
+        "Flugdatum": "2320-04-01",
+        "Flugzeit": "06:36:36",
+        "Adresse": {
+          "Land": "Land4",
+          "PLZ": "45123",
+          "Stadt": "Stadt4",
+          "Straße": "Straße4"
+        },
+        "Name": {
+          "-Geschlecht": "männlich",
+          "-terrorist": "false",
+          "Nachname": "Nachname4",
+          "Vorname": "Vorname4"
+        }
+      },
+      {
+        "Flugnummer": "42",
+        "Preis": "42.00",
+        "Flugziel": "Sacramento",
+        "Fenster": "false",
+        "Flugdatum": "2420-01-01",
+        "Flugzeit": "06:00:00",
+        "Adresse": {
+          "Land": "Land5",
+          "PLZ": "51234",
+          "Stadt": "Stadt5",
+          "Straße": "Straße5"
+        },
+        "Name": {
+          "-Geschlecht": "weiblich",
+          "-terrorist": "true",
+          "Nachname": "Nachname5",
+          "Vorname": "Vorname5"
+        }
+      }
+    ]
+  }
+}

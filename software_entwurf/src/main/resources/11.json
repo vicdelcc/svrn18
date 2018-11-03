@@ -1,0 +1,22 @@
+{
+  "flight": {
+    "customer": {
+      "lastname": "Mustermann",
+      "firstname": "Max",
+      "title": "Lord",
+      "address": "Freiheit 13",
+      "city": "Darmstadt-Wixhausen",
+      "country": "Germany",
+      "customervalid": "false"
+    },
+    "flightinformation": {
+      "departureiata": "SXF",
+      "departuredate": "2017-10-26",
+      "departuretime": "19:00:00",
+      "arrivaliata": "TXL",
+      "arrivaldate": "2018-11-01+01:00",
+      "arrivaltime": "03:02:49+02:00",
+      "flightavailable": "false"
+    }
+  }
+}

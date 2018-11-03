@@ -1,0 +1,128 @@
+{
+"Fluganfragen": 
+[
+	{
+		"Flugsuchanfrage": 
+		{
+			"FlugNr": "9876",
+			"KundenNr": "1234",
+			"Zielflughafen": "Frankfurt",
+			"Startflughafen": "Berlin",
+			"Datum": "2017-08-08",
+			"Zeit": "09:00:00",
+			"Preis": "140.50",
+			"Sitzplatzreservierung": "true",
+			"Benutzer": 
+			{
+				"Name": "Mustermann",
+				"Vorname": "Max",
+				"Stadt": "Berlin",
+			},
+			"Zusatz": 
+			{
+				"Bordverpflegung": "false",
+				"Flugtransfer": "false"
+			}
+		}
+	},
+
+	{
+		"Flugsuchanfrage": 
+		{
+			"FlugNr": "9876",
+			"KundenNr": "1234",
+			"Zielflughafen": "Rom",
+			"Startflughafen": "Berlin",
+			"Datum": "2016-09-08",
+			"Zeit": "10:00:00",
+			"Preis": "100.50",
+			"Sitzplatzreservierung": "false",
+			"Benutzer": 
+			{
+				"Name": "Mustermann",
+				"Vorname": "Max",
+				"Stadt": "Berlin",
+			},
+			"Zusatz": 
+			{
+				"Bordverpflegung": "true",
+				"Flugtransfer": "false"
+			}
+		}
+	},
+
+{
+		"Flugsuchanfrage": 
+		{
+			"FlugNr": "54321",
+			"KundenNr": "5698",
+			"Zielflughafen": "Rio",
+			"Startflughafen": "Berlin",
+			"Datum": "2017-08-08",
+			"Zeit": "09:00:00",
+			"Preis": "100.50",
+			"Sitzplatzreservierung": "false",
+			"Benutzer": 
+			{
+				"Name": "Mustermann",
+				"Vorname": "Mai",
+				"Stadt": "Berlin",
+			},
+			"Zusatz": 
+			{
+				"Bordverpflegung": "true",
+				"Flugtransfer": "false"
+			}
+		}
+	},
+
+{
+		"Flugsuchanfrage": 
+		{
+			"FlugNr": "1234",
+			"KundenNr": "9123",
+			"Zielflughafen": "Erfurt",
+			"Startflughafen": "Berlin",
+			"Datum": "2016-04-06",
+			"Zeit": "15:10:00",
+			"Preis": "97.00",
+			"Sitzplatzreservierung": "true",
+			"Benutzer": 
+			{
+				"Name": "Mustermann",
+				"Vorname": "Mai",
+				"Stadt": "Berlin",
+			},
+			"Zusatz": 
+			{
+				"Bordverpflegung": "true",
+				"Flugtransfer": "true"
+			}
+		}
+	},
+
+{
+		"Flugsuchanfrage": 
+		{
+			"FlugNr": "5678",
+			"KundenNr": "4567",
+			"Zielflughafen": "London",
+			"Startflughafen": "Köln",
+			"Datum": "2017-04-02",
+			"Zeit": "18:10:00",
+			"Preis": "54.00",
+			"Sitzplatzreservierung": "true",
+			"Benutzer": 
+			{
+				"Name": "Mustermann",
+				"Vorname": "Mai",
+				"Stadt": "Berlin",
+			},
+			"Zusatz": 
+			{
+				"Bordverpflegung": "true",
+				"Flugtransfer": "false"
+			}
+		}
+	},
+]}

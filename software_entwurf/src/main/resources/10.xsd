@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:element name="Booking">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element name="Flight" minOccurs="0" maxOccurs="unbounded">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="From" type="xs:string"/>
+						<xs:element name="To" type="xs:string"/>
+						<xs:element name="Date" type="xs:date"/>
+						<xs:element name="Time" type="xs:time"/>
+						<xs:element name="Passengers" type="xs:integer"/>
+						<xs:element name="Price" type="xs:decimal"/>
+						<xs:element name="available" type="xs:boolean"/>
+						<xs:element name="Class">
+							<xs:complexType>
+								<xs:choice>
+									<xs:element name="EconomyClass"/>
+									<xs:element name="BusinessClass"/>
+									<xs:element name="FirstClass"/>
+								</xs:choice>
+							</xs:complexType>
+						</xs:element>
+					</xs:sequence>
+					<xs:attribute name="Fid" type="xs:integer" use="required"/>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+</xs:element>
+
+</xs:schema>

@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:element name="Fluganfragen">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element name="Fluganfrage" minOccurs="0" maxOccurs="unbounded">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="Zielflughafen" type="xs:string"/>
+						<xs:element name="Startflughafen" type="xs:string"/>
+						<xs:element name="Datum" type="xs:date"/>
+						<xs:element name="Zeit" type="xs:time"/>
+						<xs:element name="Preis" type="xs:decimal"/>
+						<xs:element name="Sitzplatzreservierung" type="xs:boolean"/>
+						<xs:element name="Benutzer">
+							<xs:complexType>
+								<xs:sequence>
+									<xs:element name="Name" type="xs:string"/>
+									<xs:element name="Vorname" type="xs:string"/>
+									<xs:element name="Stadt" type="xs:string"/>
+								</xs:sequence>
+							</xs:complexType>
+						</xs:element>
+						<xs:element name="Zusatz">
+							<xs:complexType>
+								<xs:sequence>
+									<xs:element name="Bordverpflegung" type="xs:boolean"/>
+									<xs:element name="Flugtransfer" type="xs:boolean"/>
+								</xs:sequence>
+							</xs:complexType>
+						</xs:element>
+					</xs:sequence>
+					<xs:attribute name="FlugNr" type="xs:integer" use="required"/>
+					<xs:attribute name="KundenNr" type="xs:integer" use="required"/>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+</xs:element>
+
+</xs:schema>

@@ -1,4 +1,4 @@
-package de.berlin.saucken.aufgabe1.model.Utils;
+package de.berlin.saucken.aufgabe2.Utils;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<Fluganfragen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="s0548317.xsd">
+
+	<Fluganfrage FlugNr="9876" KundenNr="1234">
+		<Zielflughafen>Frankfurt</Zielflughafen>
+		<Startflughafen>Berlin</Startflughafen>
+		<Datum>2017-08-08</Datum>
+		<Zeit>09:00:00</Zeit>
+		<Preis>140.50</Preis>
+		<Sitzplatzreservierung>true</Sitzplatzreservierung>	
+		<Benutzer>
+			<Name>Mustermann</Name>
+			<Vorname>Max</Vorname>
+			<Stadt>Berlin</Stadt>
+		</Benutzer>
+		<Zusatz>
+			<Bordverpflegung>false</Bordverpflegung>
+			<Flugtransfer>false</Flugtransfer>
+		</Zusatz>
+	</Fluganfrage>
+
+	<Fluganfrage FlugNr="9876" KundenNr="1234">
+		<Zielflughafen>Rom</Zielflughafen>
+		<Startflughafen>Berlin</Startflughafen>
+		<Datum>2016-09-08</Datum>
+		<Zeit>10:00:00</Zeit>
+		<Preis>100.50</Preis>
+		<Sitzplatzreservierung>false</Sitzplatzreservierung>	
+		<Benutzer>
+			<Name>Mustermann</Name>
+			<Vorname>Max</Vorname>
+			<Stadt>Berlin</Stadt>
+		</Benutzer>
+		<Zusatz>
+			<Bordverpflegung>true</Bordverpflegung>
+			<Flugtransfer>false</Flugtransfer>
+		</Zusatz>
+	</Fluganfrage>
+
+	<Fluganfrage FlugNr="54321" KundenNr="5698">
+		<Zielflughafen>Rio</Zielflughafen>
+		<Startflughafen>Berlin</Startflughafen>
+		<Datum>2017-08-08</Datum>
+		<Zeit>09:00:00</Zeit>
+		<Preis>100.50</Preis>
+		<Sitzplatzreservierung>false</Sitzplatzreservierung>	
+		<Benutzer>
+			<Name>Mustermann</Name>
+			<Vorname>Mai</Vorname>
+			<Stadt>Berlin</Stadt>
+		</Benutzer>
+		<Zusatz>
+			<Bordverpflegung>true</Bordverpflegung>
+			<Flugtransfer>false</Flugtransfer>
+		</Zusatz>
+	</Fluganfrage>
+
+	<Fluganfrage FlugNr="1234" KundenNr="9123">
+		<Zielflughafen>Erfurt</Zielflughafen>
+		<Startflughafen>Berlin</Startflughafen>
+		<Datum>2016-04-06</Datum>
+		<Zeit>15:10:00</Zeit>
+		<Preis>97.00</Preis>
+		<Sitzplatzreservierung>true</Sitzplatzreservierung>	
+		<Benutzer>
+			<Name>Mustermann</Name>
+			<Vorname>Mai</Vorname>
+			<Stadt>Berlin</Stadt>
+		</Benutzer>
+		<Zusatz>
+			<Bordverpflegung>true</Bordverpflegung>
+			<Flugtransfer>true</Flugtransfer>
+		</Zusatz>
+	</Fluganfrage>
+
+	<Fluganfrage FlugNr="5678" KundenNr="4567">
+		<Zielflughafen>London</Zielflughafen>
+		<Startflughafen>Köln</Startflughafen>
+		<Datum>2017-04-02</Datum>
+		<Zeit>18:10:00</Zeit>
+		<Preis>54.00</Preis>
+		<Sitzplatzreservierung>true</Sitzplatzreservierung>	
+		<Benutzer>
+			<Name>Mustermann</Name>
+			<Vorname>Mai</Vorname>
+			<Stadt>Berlin</Stadt>
+		</Benutzer>
+		<Zusatz>
+			<Bordverpflegung>true</Bordverpflegung>
+			<Flugtransfer>false</Flugtransfer>
+		</Zusatz>
+	</Fluganfrage>
+</Fluganfragen>

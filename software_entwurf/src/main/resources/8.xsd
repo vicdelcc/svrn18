@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:element name="FlugBuchung">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element name="Flug" minOccurs="0" maxOccurs="unbounded">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="Start" type="xs:string"/>
+						<xs:element name="Ziel" type="xs:string"/>
+						<xs:element name="Datum" type="xs:date"/>
+						<xs:element name="Zeit" type="xs:time"/>
+						<xs:element name="Reisende" type="xs:integer"/>
+						<xs:element name="Preis" type="xs:decimal"/>
+						<xs:element name="Bezahlt" type="xs:boolean"/>
+						<xs:element name="Klasse">
+							<xs:complexType>
+								<xs:choice>
+									<xs:element name="EconomyKlasse"/>
+									<xs:element name="BusinessKlasse"/>
+									<xs:element name="ErsteKlasse"/>
+								</xs:choice>
+							</xs:complexType>
+						</xs:element>
+					</xs:sequence>
+					<xs:attribute name="Kid" type="xs:integer" use="required"/>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+</xs:element>
+
+</xs:schema>

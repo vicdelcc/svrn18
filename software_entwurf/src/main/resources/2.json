@@ -1,0 +1,77 @@
+{
+  "ArrayOfBooking": {
+    "-xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "-xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "Booking": [
+      {
+        "-creditnumber": "54145146971631",
+        "-Id": "c01",
+        "name": "Adam Müller",
+        "bookingdate": "26.06.2016",
+        "price": {
+          "-unit": "USD",
+          "#text": "100"
+        },
+        "adress": {
+          "street": "501 N Western Ave",
+          "housenumber": "102",
+          "zipcode": "CA 90004",
+          "city": "Los Angeles",
+          "country": "USA"
+        },
+        "description": {
+          "class": "First",
+          "size": "S015",
+          "weight": "left",
+          "thistime": "2016-05-23T11:09:05.9307591+02:00"
+        }
+      },
+      {
+        "-creditnumber": "51546978465655",
+        "-Id": "c02",
+        "name": "Peter Mayer",
+        "bookingdate": "15.07.2016",
+        "price": {
+          "-unit": "Eur",
+          "#text": "200"
+        },
+        "adress": {
+          "street": "Musterstraße",
+          "housenumber": "13",
+          "zipcode": "10707",
+          "city": "Berlin",
+          "country": "Germany"
+        },
+        "description": {
+          "class": "Business",
+          "size": "S022",
+          "weight": "middle",
+          "thistime": "2016-05-23T11:09:05.9432647+02:00"
+        }
+      },
+      {
+        "-creditnumber": "165464164864",
+        "-Id": "c03",
+        "name": "Karl Ott",
+        "bookingdate": "01.08.2016",
+        "price": {
+          "-unit": "AUD",
+          "#text": "300"
+        },
+        "adress": {
+          "street": "58 Chief St",
+          "housenumber": "102",
+          "zipcode": "SA 5007",
+          "city": "Brompton",
+          "country": "Australia"
+        },
+        "description": {
+          "class": "Economy",
+          "size": "S033",
+          "weight": "right",
+          "thistime": "2016-05-23T11:09:05.9437639+02:00"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<FlugBuchung xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="s0548450.xsd">
+
+	<Flug Kid="1">
+		<Start>Hamburg</Start>
+		<Ziel>Paris</Ziel>
+		<Datum>2017-02-26</Datum>
+		<Zeit>15:30:00</Zeit>
+		<Reisende>3</Reisende>
+		<Preis>167.00</Preis>
+		<Bezahlt>true</Bezahlt>	
+		<Klasse>
+			<EconomyKlasse></EconomyKlasse>
+		</Klasse>
+	</Flug>
+	
+	<Flug Kid="2">
+		<Start>Berlin</Start>
+		<Ziel>Amsterdam</Ziel>
+		<Datum>2016-04-12</Datum>
+		<Zeit>10:20:00</Zeit>
+		<Reisende>1</Reisende>
+		<Preis>120.00</Preis>
+		<Bezahlt>false</Bezahlt>	
+		<Klasse>
+			<EconomyKlasse></EconomyKlasse>
+		</Klasse>
+	</Flug>
+	
+	<Flug Kid="3">
+		<Start>Berlin</Start>
+		<Ziel>Moskau</Ziel>
+		<Datum>2016-11-05</Datum>
+		<Zeit>09:45:00</Zeit>
+		<Reisende>2</Reisende>
+		<Preis>650.00</Preis>
+		<Bezahlt>true</Bezahlt>	
+		<Klasse>
+			<BusinessKlasse></BusinessKlasse>
+		</Klasse>
+	</Flug>
+	
+	<Flug Kid="4">
+		<Start>Moskau</Start>
+		<Ziel>München</Ziel>
+		<Datum>2015-03-06</Datum>
+		<Zeit>16:30:00</Zeit>
+		<Reisende>1</Reisende>
+		<Preis>300.00</Preis>
+		<Bezahlt>true</Bezahlt>	
+		<Klasse>
+			<EconomyKlasse></EconomyKlasse>
+		</Klasse>
+	</Flug>
+	
+	<Flug Kid="5">
+		<Start>Paris</Start>
+		<Ziel>Barcelona</Ziel>
+		<Datum>2017-02-26</Datum>
+		<Zeit>10:30:00</Zeit>
+		<Reisende>1</Reisende>
+		<Preis>700.00</Preis>
+		<Bezahlt>true</Bezahlt>	
+		<Klasse>
+			<ErsteKlasse></ErsteKlasse>
+		</Klasse>
+	</Flug>
+	
+</FlugBuchung>

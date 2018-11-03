@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<flight xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="VSYS_Aufgabe3_1a.xsd"> 
+<flugbuchung>
+  <Customer customer_id="194672538">
+    <price>247.66</price>
+    <lastname>Meier</lastname>
+    <instantbanking>true</instantbanking>
+    <date>2016-09-10</date>
+    <time>12:50:09</time>
+    <Addresse>
+      <street>Ahrenshooper Straße</street>
+      <housenumber>109</housenumber>
+      <zipcode>12343</zipcode>
+      <city>Berlin</city>
+    </Addresse>
+  </Customer>
+  <flight_Data flight_ID="txlfra9102016">
+    <from>TXL</from>
+    <to>FRA</to>
+    <price>247.66</price>
+    <date>2016-09-10</date>
+  </flight_Data>
+  <order_Id>ord2016txlfraopodo</order_Id>
+</flugbuchung>
+
+<flugbuchung>
+  <Customer customer_id="015438724">
+    <price>996.03</price>
+    <lastname>Richard</lastname>
+    <instantbanking>false</instantbanking>
+    <date>2016-08-15</date>
+    <time>11:11:10</time>
+    <Addresse>
+      <street>Wieker Stra0e</street>
+      <housenumber>12</housenumber>
+      <zipcode>13556</zipcode>
+      <city>Berlin</city>
+    </Addresse>
+  </Customer>
+  <flight_Data flight_ID="txljfk4572543">
+    <from>TXL</from>
+    <to>JFK</to>
+    <price>996.03</price>
+    <date>2016-08-15</date>
+  </flight_Data>
+  <order_Id>ord2016txljfkkayak</order_Id>
+</flugbuchung>
+
+<flugbuchung>
+  <Customer customer_id="654273655">
+    <price>632.22</price>
+    <lastname>Rudolph</lastname>
+    <instantbanking>true</instantbanking>
+    <date>2017-12-13</date>
+    <time>07:11:11</time>
+    <Addresse>
+      <street>Borner Straße</street>
+      <housenumber>22</housenumber>
+      <zipcode>13203</zipcode>
+      <city>Berlin</city>
+    </Addresse>
+  </Customer>
+  <flight_Data flight_ID="txlpmi2349164">
+    <from>TXL</from>
+    <to>PMI</to>
+    <price>632.22</price>
+    <date>2017-12-13</date>
+  </flight_Data>
+  <order_Id>ord2017txlpmiswoodo</order_Id>
+</flugbuchung>
+
+<flugbuchung>
+  <Customer customer_id="6452976">
+    <price>45.65</price>
+    <lastname>Walter</lastname>
+    <instantbanking>true</instantbanking>
+    <date>2016-01-13</date>
+    <time>05:04:09</time>
+    <Addresse>
+      <street>Barter Straße</street>
+      <housenumber>60</housenumber>
+      <zipcode>13432</zipcode>
+      <city>Berlin</city>
+    </Addresse>
+  </Customer>
+  <flight_Data flight_ID="sxfdub2076499">
+    <from>SXF</from>
+    <to>DUB</to>
+    <price>45.65</price>
+    <date>2016-01-13</date>
+  </flight_Data>
+  <order_Id>ord2016sxfdubkayak</order_Id>
+</flugbuchung>
+
+<flugbuchung>
+  <Customer customer_id="1832554">
+    <price>33.54</price>
+    <lastname>Heinrich</lastname>
+    <instantbanking>false</instantbanking>
+    <date>2017-01-01</date>
+    <time>06:08:09</time>
+    <Addresse>
+      <street>Darßer Straße</street>
+      <housenumber>100</housenumber>
+      <zipcode>13051</zipcode>
+      <city>Berlin</city>
+    </Addresse>
+  </Customer>
+  <flight_Data flight_ID="txlfra3876441">
+    <from>TXL</from>
+    <to>FRA</to>
+    <price>33.45</price>
+    <date>2017-01-01</date>
+  </flight_Data>
+  <order_Id>ord2017txlfraopodo</order_Id>
+</flugbuchung>
+</flight>

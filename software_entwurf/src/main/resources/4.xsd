@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="Users">
+	<xs:complexType>
+		<xs:sequence>  
+			<xs:element name="User" minOccurs="0" maxOccurs="unbounded">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="U_ID" minOccurs="1" maxOccurs="1" type="xs:integer" />
+						<xs:element name="U_email" minOccurs="1" maxOccurs="1" type="xs:string" />
+						<xs:element name="U_password" minOccurs="1" maxOccurs="1" type="xs:string" />
+						<xs:element name="U_name">
+						<xs:complexType>
+							<xs:sequence>
+								<xs:element name="U_firstname" type="xs:string" />
+								<xs:element name="U_lastname" type="xs:string" />
+							</xs:sequence>
+						</xs:complexType>
+						</xs:element>
+						<xs:element name="U_gender" type="xs:boolean" minOccurs="1" maxOccurs="1" />
+						<xs:element name="U_lastlogin">
+						<xs:complexType>
+							<xs:sequence>
+								<xs:element name="U_lastlogin_date" type="xs:date" />
+								<xs:element name="U_lastlogin_time" type="xs:time" />
+							</xs:sequence>
+						</xs:complexType>
+						</xs:element>
+						<xs:element name="U_crdate" minOccurs="1" maxOccurs="1">
+						<xs:complexType>
+							<xs:sequence>
+								<xs:element name="U_crdate_date" type="xs:date" />
+								<xs:element name="U_crdate_time" type="xs:time" />
+							</xs:sequence>
+						</xs:complexType>
+						</xs:element>
+						<xs:element name="U_rating" type="xs:float" minOccurs="1" maxOccurs="1" />
+						<xs:element name="U_login_count" minOccurs="1" maxOccurs="1" type="xs:integer" />
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+</xs:element>
+</xs:schema>

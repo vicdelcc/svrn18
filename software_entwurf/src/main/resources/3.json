@@ -1,0 +1,149 @@
+[
+      {
+        "number": "123456",
+        "flightdate": "2010-01-01",
+        "flighttime": "10:50:00",
+        "bookingdate": "2010-01-01",
+        "price": "123.45",
+        "destination": {
+          "-ICAO-Code": "TXL",
+          "#text": "Berlin Tegel"
+        },
+        "departure": {
+          "-ICAO-Code": "BER",
+          "#text": "Berlin Berlin Brandenburg"
+        },
+        "passengers": {
+          "passenger": [
+            {
+              "-number": "1",
+              "lastname": "Boolean",
+              "firtnanme": "True",
+              "sex": "female",
+              "vegetarian": "true",
+              "birthdate": "2010-01-01",
+              "passportnumber": "A1324456789",
+              "seat": "7a"
+            },
+            {
+              "-number": "2",
+              "lastname": "Boolean",
+              "firtnanme": "False",
+              "sex": "male",
+              "vegetarian": "false",
+              "birthdate": "2010-01-01",
+              "passportnumber": "A132443339",
+              "seat": "7b"
+            }
+          ]
+        }
+      },
+      {
+        "number": "1234256",
+        "flightdate": "2015-01-01",
+        "flighttime": "10:50:00",
+        "bookingdate": "2014-01-01",
+        "price": "1233.45",
+        "destination": {
+          "-ICAO-Code": "PLM",
+          "#text": "Palma de Mallorca"
+        },
+        "departure": {
+          "-ICAO-Code": "BER",
+          "#text": "Berlin Berlin Brandenburg"
+        },
+        "passengers": {
+          "passenger": {
+            "-number": "1",
+            "lastname": "Booleano",
+            "firtnanme": "Trues",
+            "sex": "female",
+            "vegetarian": "true",
+            "birthdate": "2000-01-01",
+            "passportnumber": "I2433456789",
+            "seat": "1a"
+          }
+        }
+      },
+      {
+        "number": "12346",
+        "flightdate": "2025-01-01",
+        "flighttime": "10:30:00",
+        "bookingdate": "2015-01-01",
+        "price": "50000.45",
+        "destination": {
+          "-ICAO-Code": "JFK",
+          "#text": "New York City, JFK Airport"
+        },
+        "departure": {
+          "-ICAO-Code": "BTN",
+          "#text": "Boston International Airport"
+        },
+        "passengers": {
+          "passenger": {
+            "-number": "1",
+            "lastname": "Integer",
+            "firtnanme": "Nul",
+            "sex": "male",
+            "vegetarian": "false",
+            "birthdate": "1980-10-01",
+            "passportnumber": "A5455666",
+            "seat": "1a"
+          }
+        }
+      },
+      {
+        "number": "1000",
+        "flightdate": "2015-11-21",
+        "flighttime": "08:30:00",
+        "bookingdate": "2015-01-01",
+        "price": "500.45",
+        "destination": {
+          "-ICAO-Code": "JFK",
+          "#text": "New York City, JFK Airport"
+        },
+        "departure": {
+          "-ICAO-Code": "BTN",
+          "#text": "Boston International Airport"
+        },
+        "passengers": {
+          "passenger": {
+            "-number": "1",
+            "lastname": "Real",
+            "firtnanme": "John",
+            "sex": "male",
+            "vegetarian": "false",
+            "birthdate": "1985-09-09",
+            "passportnumber": "K12335",
+            "seat": "10c"
+          }
+        }
+      },
+      {
+        "number": "2000",
+        "flightdate": "2015-12-31",
+        "flighttime": "00:30:00",
+        "bookingdate": "2015-10-01",
+        "price": "500.45",
+        "destination": {
+          "-ICAO-Code": "JFK",
+          "#text": "New York City, JFK Airport"
+        },
+        "departure": {
+          "-ICAO-Code": "BTN",
+          "#text": "Boston International Airport"
+        },
+        "passengers": {
+          "passenger": {
+            "-number": "1",
+            "lastname": "Complex",
+            "firtnanme": "Maria",
+            "sex": "female",
+            "vegetarian": "false",
+            "birthdate": "1983-03-02",
+            "passportnumber": "G999538",
+            "seat": "7b"
+          }
+        }
+      }
+    ]

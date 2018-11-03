@@ -1,0 +1,107 @@
+{"Fluganfragen":[
+	{
+
+		"-KundenNr":"6789",
+		"-FlugNr":"1234",
+		"Startflughafen":"Berlin",
+		"Zielflughafen":"Paris",
+		"Datum":"2016-08-26",
+		"Zeit":"06:00:00",
+		"Passagieranzahl":"2",
+		"Preis":"155.55",
+		"stornierbar":"true",
+		"Befoerderungsklasse": {"EconomyClass":""},
+		"Zusatzangebote":
+		{
+			"Bordverpflegung":"false",
+			"Sitzplatzreservierung":"false",
+			"ZugZumFlug":"false",
+			"Mietwagen":"false"
+		}
+	},
+
+	{	
+
+		"-KundenNr":"5789",
+		"-FlugNr":"1110",
+		"Startflughafen":"Berlin",
+		"Zielflughafen":"Rom",
+		"Datum":"2016-11-06",
+		"Zeit":"11:00:00",
+		"Passagieranzahl":"1",
+		"Preis":"178.50",
+		"stornierbar":"true",
+		"Befoerderungsklasse": {"BusinessClass":""},
+		"Zusatzangebote":
+		{
+			"Bordverpflegung":"true",
+			"Sitzplatzreservierung":"false",
+			"ZugZumFlug":"false",
+			"Mietwagen":"false"
+		}
+	},
+
+	{	
+
+		"-KundenNr":"1411",
+		"-FlugNr":"54368",
+		"Startflughafen":"Rom",
+		"Zielflughafen":"Paris",
+		"Datum":"2016-05-26",
+		"Zeit":"21:30:00",
+		"Passagieranzahl":"1",
+		"Preis":"314.00",
+		"stornierbar":"true",
+		"Befoerderungsklasse": {"FirstClass":""},
+		"Zusatzangebote":
+		{
+			"Bordverpflegung":"true",
+			"Sitzplatzreservierung":"true",
+			"ZugZumFlug":"false",
+			"Mietwagen":"false"
+		}
+	},
+
+	{	
+
+		"-KundenNr":"3698",
+		"-FlugNr":"1587",
+		"Startflughafen":"Berlin",
+		"Zielflughafen":"New York",
+		"Datum":"2016-10-28",
+		"Zeit":"06:00:00",
+		"Passagieranzahl":"1",
+		"Preis":"348.36",
+		"stornierbar":"false",
+		"Befoerderungsklasse": {"EconomyClass":""},
+		"Zusatzangebote":
+		{
+			"Bordverpflegung":"true",
+			"Sitzplatzreservierung":"false",
+			"ZugZumFlug":"true",
+			"Mietwagen":"false"
+		}
+	},
+
+	{	
+
+		"-KundenNr":"8879",
+		"-FlugNr":"7895",
+		"Startflughafen":"Helsinki",
+		"Zielflughafen":"Frankfurt am Main",
+		"Datum":"2016-06-16",
+		"Zeit":"17:28:00",
+		"Passagieranzahl":"2",
+		"Preis":"178.00",
+		"stornierbar":"false",
+		"Befoerderungsklasse": {"EconomyClass":""},
+		"Zusatzangebote":
+		{
+			"Bordverpflegung":"false",
+			"Sitzplatzreservierung":"false",
+			"ZugZumFlug":"false",
+			"Mietwagen":"false"
+		}
+	}
+
+]}

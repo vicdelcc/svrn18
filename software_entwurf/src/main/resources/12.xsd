@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">	
+	<xs:element name="Flugbuchung">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="buchen" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Flugnummer" type="xs:integer"/>
+							<xs:element name="Preis" type="xs:float"/>
+							<xs:element name="Flugziel" type="xs:string"/>
+							<xs:element name="Fenster" type="xs:boolean"/>
+							<xs:element name="Flugdatum" type="xs:date"/>
+							<xs:element name="Flugzeit" type="xs:time"/>
+							<xs:element name="Adresse">
+								<xs:complexType>
+   									<xs:sequence>      
+      										<xs:element name="Land" type="xs:string" />
+      										<xs:element name="PLZ" type="xs:string" />
+      										<xs:element name="Stadt" type="xs:string" />
+     										<xs:element name="Straße" type="xs:string" />
+   									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="Name">
+								<xs:complexType>
+   									<xs:sequence >      
+     										 <xs:element name="Nachname" type="xs:string" />
+      						 				<xs:element name="Vorname" type="xs:string" />
+   									</xs:sequence>
+									<xs:attribute name="Geschlecht" type="xs:string" use="required" />									
+									<xs:attribute name="terrorist" type="xs:boolean" use="required" />	
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>						
+</xs:schema>

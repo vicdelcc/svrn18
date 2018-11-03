@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<flightbooking>
+	<booking>
+		<usrname>
+			<firstname>Friedrich</firstname>
+			<lastname>Heinz</lastname>
+		</usrname>
+		<adress>
+			<street>Mangelnauerstraße</street>
+			<hsNr>15</hsNr>
+			<zip>45788</zip>
+			<city>Oldenburg</city>
+		</adress>
+		<price>12.65</price>
+		<window>true</window>
+		<flydate>2016-03-12</flydate>
+		<flytime>12:15:00</flytime>
+	</booking>
+	
+	<booking>
+		<usrname>
+			<firstname>Justus</firstname>
+			<lastname>Jonas</lastname>
+		</usrname>
+		<adress>
+			<street>Fragendestraße</street>
+			<hsNr>3</hsNr>
+			<zip>47785</zip>
+			<city>Lampertheim</city>
+		</adress>
+		<price>120.45</price>
+		<window>false</window>
+		<flydate>2016-06-25</flydate>
+		<flytime>18:23:00</flytime>
+	</booking>
+
+	<booking>
+		<usrname>
+			<firstname>Ferdinand</firstname>
+			<lastname>Halstroem</lastname>
+		</usrname>
+		<adress>
+			<street>Mechtersstraße</street>
+			<hsNr>84</hsNr>
+			<zip>63553</zip>
+			<city>Groß-Auenbach</city>
+		</adress>
+		<price>89.88</price>
+		<window>true</window>
+		<flydate>2016-08-17</flydate>
+		<flytime>09:55:00</flytime>
+	</booking>
+
+	<booking>
+		<usrname>
+			<firstname>James</firstname>
+			<lastname>Miltras</lastname>
+		</usrname>
+		<adress>
+			<street>Hauptstraße</street>
+			<hsNr>198</hsNr>
+			<zip>76622</zip>
+			<city>Gernach</city>
+		</adress>
+		<price>66.35</price>
+		<window>false</window>
+		<flydate>2016-03-19</flydate>
+		<flytime>14:30:00</flytime>
+	</booking>
+
+	<booking>
+		<usrname>
+			<firstname>Heike</firstname>
+			<lastname>Stefan</lastname>
+		</usrname>
+		<adress>
+			<street>Althausstraße</street>
+			<hsNr>27</hsNr>
+			<zip>75543</zip>
+			<city>Dresden</city>
+		</adress>
+		<price>101.43</price>
+		<window>true</window>
+		<flydate>2016-11-12</flydate>
+		<flytime>08:20:00</flytime>
+	</booking>
+</flightbooking>
+

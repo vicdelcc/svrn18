@@ -1,7 +1,7 @@
 package de.berlin.saucken.aufgabe2;
 
 import com.github.javafaker.Faker;
-import de.berlin.saucken.aufgabe1.model.User;
+import de.berlin.saucken.aufgabe2.model.User;
 
 
 public class TestUtil {

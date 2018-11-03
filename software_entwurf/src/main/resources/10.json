@@ -1,0 +1,95 @@
+{	
+		
+	"Booking": {
+		"Flight": [
+		{
+			"From": "Frankfurt",
+			"To": "London",
+			"Date": "2016-08-26",
+			"Time":"12:00:00",
+			"Passengers": "2",
+			"Price":"120.00",
+			"available": "true",	
+			"Class": 
+				{
+					"EconomyClass": "EconomyClass"
+					
+				}
+				        
+		},
+		
+		
+		{
+			
+			"From": "Frankfurt",
+			"To": "New York",
+			"Date": "2016-05-13",
+			"Time":"11:39:00",
+			"Passengers": "2",
+			"Price":"1120.00",
+			"available": "true",	
+			"Class": 
+				{
+					
+					"BusinessClass":"BusinessClass"
+				}
+				        
+		},
+		
+		
+		{
+			
+			"From": "Frankfurt",
+			"To": "Wien",
+			"Date": "2015-07-05",
+			"Time":"16:00:00",
+			"Passengers": "4",
+			"Price":"180.00",
+			"available": "false",	
+			"Class": 
+				{
+					
+					"EconomyClass": "EconomyClass"
+					
+				}
+				        
+		},
+		
+		
+		{
+			
+			"From": "Hamburg",
+			"To": "Rom",
+			"Date": "2017-01-16",
+			"Time":"20:00:00",
+			"Passengers": "1",
+			"Price":"201.00",
+			"available": "true",	
+			"Class": 
+				{
+					"EconomyClass": "EconomyClass"
+				
+				}
+				       
+		},
+		
+		
+		{
+			
+			"From": "Berlin",
+			"To": "Hamburg",
+			"Date": "2016-09-25",
+			"Time":"07:00:00",
+			"Passengers": "1",
+			"Price":"450.00",
+			"available": "true",	
+			"Class": 
+				{
+					"FirstClass": "FirstClass"
+				
+				}
+				        
+		}
+		]
+	}
+}

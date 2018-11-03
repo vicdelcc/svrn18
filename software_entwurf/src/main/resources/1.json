@@ -1,0 +1,130 @@
+	{
+  "flugbuchung": {
+    "booking": [
+	{
+        "customer": {
+			"customerid": "15789",
+			"lastname": "Ritter",
+			"firstname": "Rita"
+		},
+	
+        "adressdetails": {
+          "street": "Jahnstrasse",
+          "number": "4a",
+          "zipcode": "12207",
+          "city": "Berlin",
+		  "country": "Germany"
+		},
+	
+		"flightdata": {
+			"flightid": "145697",
+			"pricing": "124,99",
+			"windowseat": "false",
+			"date": "2016-08-03",
+			"time": "04:00:00",
+			"from": "TXL",
+			"to": "LAX"
+		},
+    {
+        "customer": {
+			"customerid": "65748",
+			"lastname": "Brauer",
+			"firstname": "Helmut"
+		},
+	
+        "adressdetails": {
+          "street": "Am Waldschloesschen",
+          "number": "12",
+          "zipcode": "52163",
+          "city": "Paderborn",
+		  "country": "Germany"
+        },
+		
+		"flightdata": {
+			"flightid": "478563",
+			"pricing": "12,54",
+			"windowseat": "true",
+			"date": "2016-05-14",
+			"time": "23:47:00",
+			"from": "PAD",
+			"to": "FCO"
+      },      
+	  {
+        "customer": {
+			"customerid": "65471",
+			"lastname": "Alvarez",
+			"firstname": "Angel"
+        },
+		
+        "adressdetails": {
+          "street": "Gustav-Freytag-Strasse",
+          "number": "58",
+          "zipcode": "10827",
+          "city": "Berlin",
+		  "country": "Germany"
+        },
+		
+		"flightdata": {
+			"flightid": "687425",
+			"pricing": "54,23",
+			"windowseat": "false",
+			"date": "2016-12-05",
+			"time": "05:57:12",
+			"from": "MUC",
+			"to": "HKT"
+      },
+	  {
+        "customer": {
+		"customerid": "73451",
+		"lastname": "Flechtner",
+		"firstname": "Yannick"
+        },
+		
+        "adressdetails": {
+          "street": "Perleberger Strasse",
+          "number": "52",
+          "zipcode": "10559",
+          "city": "Berlin",
+		  "country": "Germany"
+        },
+		
+		"flightdata": {
+			"flightid": "654123",
+			"pricing": "78,00",>
+			"windowseat": "false",
+			"date": "2016-01-23",
+			"time": "21:30:00",
+			"from": "SXF",
+			"to": "DUB"
+      },
+		{
+	     "customer": {
+		"customerid": "12345",
+		"lastname": "Hornuf",
+		"firstname": "Marco"
+        },
+		
+        "adressdetails": {
+          "street": "Eichhoernchenweg",
+          "number": "7",
+          "zipcode": "14532",
+          "city": "Kleinmachnow",
+		  "country": "Germany"
+        },
+		
+		"flightdata": {
+			"flightid": "847361",
+			"pricing": "245,70",
+			"windowseat": "true",
+			"date": "2016-10-24",
+			"time": "11:11:11",
+			"from": "CGN",
+			"to": "DXB"
+      
+		}}
+		]
+		}
+		}}
+		}
+	}}
+	} 

@@ -1,4 +1,4 @@
-package de.berlin.saucken.aufgabe1.model;
+package de.berlin.saucken.aufgabe2.model;
 
 public class ChatSeverException extends Exception {
 
